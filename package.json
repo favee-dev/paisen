@@ -1,0 +1,43 @@
+{
+  "name": "paisen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -p 5555",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bcryptjs": "^3.0.0",
+    "@types/node": "^24.0.15",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "autoprefixer": "^10.4.21",
+    "bcryptjs": "^3.0.2",
+    "next": "^15.4.2",
+    "postcss": "^8.5.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@auth/prisma-adapter": "^2.10.0",
+    "@prisma/client": "^6.12.0",
+    "ai": "^4.3.19",
+    "eslint": "^9.31.0",
+    "eslint-config-next": "^15.4.2",
+    "next-auth": "^4.24.11",
+    "openai": "^5.10.1",
+    "prettier": "^3.6.2",
+    "prisma": "^6.12.0"
+  }
+}
