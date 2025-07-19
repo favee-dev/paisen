@@ -27,7 +27,7 @@ export default function AvatarSelector({ selected, onSelect }: AvatarSelectorPro
         >
           <span className="text-2xl">{option.emoji}</span>
           <div className="flex-1 text-left">
-            <div className="font-medium text-gray-900">{option.label}</div>
+            <div className="text-sm sm:text-base font-medium text-gray-900">{option.label}</div>
             <div className="text-xs text-gray-500">{option.description}</div>
           </div>
           {selected === option.value && (

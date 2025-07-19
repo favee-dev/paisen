@@ -57,7 +57,7 @@
   }
 
   .chat-bubble {
-    @apply px-4 py-3 rounded-2xl max-w-[70%] break-words;
+    @apply px-3 py-2 sm:px-4 sm:py-3 rounded-2xl max-w-[80%] sm:max-w-[70%] break-words;
     word-wrap: break-word;
   }
 

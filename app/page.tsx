@@ -33,14 +33,14 @@ export default function Home() {
 
   // 未ログイン時のウェルカム画面
   return (
-    <main className='min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100'>
-      <div className='flex min-h-screen flex-col items-center justify-center p-24'>
+    <main className='min-h-screen bg-gradient-to-br from-purple-50 via-white to-blue-50'>
+      <div className='flex min-h-screen flex-col items-center justify-center p-4 sm:p-24'>
         <div className='max-w-md w-full space-y-8 text-center'>
           <div>
-            <h1 className='text-6xl font-bold text-gray-900 mb-4'>🤖</h1>
-            <h2 className='text-4xl font-bold text-gray-900 mb-2'>AI先輩</h2>
-            <p className='text-xl text-gray-600 mb-8'>率直なコミュニケーションをサポートします</p>
-            <p className='text-gray-500 mb-12'>
+            <h1 className='text-5xl sm:text-6xl font-bold text-gray-900 mb-4'>🤖</h1>
+            <h2 className='text-3xl sm:text-4xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent mb-2'>AI先輩</h2>
+            <p className='text-lg sm:text-xl text-gray-600 mb-4 sm:mb-8'>率直なコミュニケーションをサポートします</p>
+            <p className='text-sm sm:text-base text-gray-500 mb-8 sm:mb-12'>
               リモートワークでも本音を伝えられる、AI先輩サービス
             </p>
           </div>
@@ -48,14 +48,14 @@ export default function Home() {
           <div className='space-y-4'>
             <Link
               href='/login'
-              className='w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-colors'
+              className='btn-gradient w-full text-center'
             >
               ログイン
             </Link>
 
             <Link
               href='/register'
-              className='w-full flex justify-center py-3 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-indigo-600 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-colors'
+              className='w-full flex justify-center py-3 px-4 border border-gray-300 rounded-lg shadow-sm text-sm font-medium text-purple-600 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 transition-all duration-200'
             >
               新規アカウント作成
             </Link>
